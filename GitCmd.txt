@@ -1,0 +1,8 @@
+1. Recupere le depot remote en local
+> git clone https://github.com/StefBibi/TestGit.git
+> cd 'directory'
+
+2. Ajout de fichiers en attente d'envoie, packaging des changements, envoi vers depot
+> git add .
+> git commit -m "ajour 1 fichier .txt
+> git push

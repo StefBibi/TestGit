@@ -27,4 +27,7 @@
 > git restore --staged <file> (ou . pour tous les fichiers)
 
 
-git restore --staged <file>..." to unstage
+7. Creation branche (en local), aller dessus et la push
+> git branch dev
+> git checkout dev
+> git push --set-upstream origin dev

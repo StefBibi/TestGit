@@ -39,3 +39,8 @@
 9. Recuperer modif du depot en remote
 > git pull
 
+10. Merge branche de travail vers superieur
+> git checkout dev
+> git merge test
+> git checkout main
+> git merge dev

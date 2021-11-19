@@ -2,13 +2,29 @@
 > git clone https://github.com/StefBibi/TestGit.git
 > cd 'directory'
 
-2. Ajout du fichier des commandes, packaging des changements, envoi vers depot
-> git add .
-> git commit -m "ajout d'un fichier .txt
+2. Ajout du fichier .txt des commandes, packaging des changements, envoi vers depot
+> git add . 	(ou git add -A)
+> git commit -m "ajout du fichier .txt des commandes"
 > git push
 
 
-2. Ajout d'un 2nd fichier, packaging des changements, envoi vers depot
-> git add -A
-> git commit -m "ajout d'un fichier .txt
+3. Ajout d'un 2nd fichier file1
+> git add . 	(ou git add -A)
+> git commit -m "ajout 2nd fichier"
 > git push
+
+4. Renommage fichier file1 en file2
+> git add . 	(ou git add -A)
+> git commit -m "file1 renomme en file3"
+> git push
+
+5. Annulation modification dans file3 (avant stage et commit)
+> git status		(juste pour voir)
+> git restore .		(tous les fichiers du rep courant ou <file>)
+
+6. Annuler un stage (add .)
+> git add . 		(ou git add -A)
+> git restore --staged <file> (ou . pour tous les fichiers)
+
+
+git restore --staged <file>..." to unstage

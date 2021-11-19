@@ -31,3 +31,8 @@
 > git branch dev
 > git checkout dev
 > git push --set-upstream origin dev
+
+8. Recuperer une branche (sans passe par clone)
+> git fetch (recupere tout les elements du depot, sans passe par clone)
+> git checkout dev
+> git push --set-upstream origin dev
